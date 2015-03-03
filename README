@@ -1,1 +1,3 @@
 This is a version of the MITREid Connect server that speaks to a backend LDAP system for its user information and authentication.
+
+This fork is here to show how to use userSearch with a FilterBasedLdapUserSearch to allow the login username to be something other than dn (in this case, `uid`)
